@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "./.eslint.defaults"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "impliedStrict": true,
+    "ecmaFeatures": {
+    }
+  },
+  "env": {
+    "shared-node-browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "globals": {
+  }
+}
